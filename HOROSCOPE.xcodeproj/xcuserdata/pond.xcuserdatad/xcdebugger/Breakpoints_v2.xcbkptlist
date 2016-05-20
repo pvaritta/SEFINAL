@@ -102,12 +102,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HOROSCOPETests/HOROSCOPETests.swift"
-            timestampString = "485373062.238249"
+            timestampString = "485428148.176141"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "testPerformanceExample()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HOROSCOPETests/HOROSCOPETests.swift"
+            timestampString = "485428148.176141"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "testExample()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HOROSCOPETests/HOROSCOPETests.swift"
+            timestampString = "485426775.698982"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
             endingLineNumber = "56"
-            landmarkName = "testPerformanceExample()"
+            landmarkName = "testExample()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -53,7 +53,10 @@ class HOROSCOPETests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         //XCTAssertEqual(ViewController.checkString(10,digitCount: 10))
-        XCTAssertNil(xxxsss.asdasd(12,y:10))
+        let cls = ViewController()
+        let check = cls.checkString(0,digitCount: 10)
+        let result = 1
+        XCTAssertEqual(check, result)
     }
     
     func testPerformanceExample() {
