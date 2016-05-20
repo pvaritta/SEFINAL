@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B425C421CEDEBCC00A77ADC /* HOROSCOPETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B425C3D1CEDE9DC00A77ADC /* HOROSCOPETests.swift */; };
+		7B425C441CEDEE1800A77ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B425C371CEDE06300A77ADC /* ViewController.swift */; };
+		7B425C471CEE2F8A00A77ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B425C371CEDE06300A77ADC /* ViewController.swift */; };
+		7B425C481CEE2F9000A77ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB125B71CDCB9C900269315 /* AppDelegate.swift */; };
+		7BB125B81CDCB9C900269315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB125B71CDCB9C900269315 /* AppDelegate.swift */; };
+		7BB125BD1CDCB9C900269315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB125BB1CDCB9C900269315 /* Main.storyboard */; };
+		7BB125BF1CDCB9C900269315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB125BE1CDCB9C900269315 /* Assets.xcassets */; };
+		7BB125C21CDCB9C900269315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB125C01CDCB9C900269315 /* LaunchScreen.storyboard */; };
+		7BB125D81CDCB9CA00269315 /* HOROSCOPEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB125D71CDCB9CA00269315 /* HOROSCOPEUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB125C91CDCB9C900269315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB125AC1CDCB9C900269315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB125B31CDCB9C900269315;
+			remoteInfo = HOROSCOPE;
+		};
+		7BB125D41CDCB9CA00269315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB125AC1CDCB9C900269315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB125B31CDCB9C900269315;
+			remoteInfo = HOROSCOPE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B425C371CEDE06300A77ADC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B425C3D1CEDE9DC00A77ADC /* HOROSCOPETests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOROSCOPETests.swift; sourceTree = "<group>"; };
+		7BB125B41CDCB9C900269315 /* HOROSCOPE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOROSCOPE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB125B71CDCB9C900269315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BB125BC1CDCB9C900269315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BB125BE1CDCB9C900269315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BB125C11CDCB9C900269315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BB125C31CDCB9C900269315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB125C81CDCB9C900269315 /* HOROSCOPETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOROSCOPETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB125CE1CDCB9C900269315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB125D31CDCB9CA00269315 /* HOROSCOPEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOROSCOPEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB125D71CDCB9CA00269315 /* HOROSCOPEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOROSCOPEUITests.swift; sourceTree = "<group>"; };
+		7BB125D91CDCB9CA00269315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB125B11CDCB9C900269315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB125C51CDCB9C900269315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB125D01CDCB9CA00269315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB125AB1CDCB9C900269315 = {
+			isa = PBXGroup;
+			children = (
+				7BB125B61CDCB9C900269315 /* HOROSCOPE */,
+				7BB125CB1CDCB9C900269315 /* HOROSCOPETests */,
+				7BB125D61CDCB9CA00269315 /* HOROSCOPEUITests */,
+				7BB125B51CDCB9C900269315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB125B51CDCB9C900269315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB125B41CDCB9C900269315 /* HOROSCOPE.app */,
+				7BB125C81CDCB9C900269315 /* HOROSCOPETests.xctest */,
+				7BB125D31CDCB9CA00269315 /* HOROSCOPEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB125B61CDCB9C900269315 /* HOROSCOPE */ = {
+			isa = PBXGroup;
+			children = (
+				7BB125B71CDCB9C900269315 /* AppDelegate.swift */,
+				7B425C371CEDE06300A77ADC /* ViewController.swift */,
+				7BB125BB1CDCB9C900269315 /* Main.storyboard */,
+				7BB125BE1CDCB9C900269315 /* Assets.xcassets */,
+				7BB125C01CDCB9C900269315 /* LaunchScreen.storyboard */,
+				7BB125C31CDCB9C900269315 /* Info.plist */,
+			);
+			path = HOROSCOPE;
+			sourceTree = "<group>";
+		};
+		7BB125CB1CDCB9C900269315 /* HOROSCOPETests */ = {
+			isa = PBXGroup;
+			children = (
+				7B425C3D1CEDE9DC00A77ADC /* HOROSCOPETests.swift */,
+				7BB125CE1CDCB9C900269315 /* Info.plist */,
+			);
+			path = HOROSCOPETests;
+			sourceTree = "<group>";
+		};
+		7BB125D61CDCB9CA00269315 /* HOROSCOPEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB125D71CDCB9CA00269315 /* HOROSCOPEUITests.swift */,
+				7BB125D91CDCB9CA00269315 /* Info.plist */,
+			);
+			path = HOROSCOPEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB125B31CDCB9C900269315 /* HOROSCOPE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB125DC1CDCB9CA00269315 /* Build configuration list for PBXNativeTarget "HOROSCOPE" */;
+			buildPhases = (
+				7BB125B01CDCB9C900269315 /* Sources */,
+				7BB125B11CDCB9C900269315 /* Frameworks */,
+				7BB125B21CDCB9C900269315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HOROSCOPE;
+			productName = HOROSCOPE;
+			productReference = 7BB125B41CDCB9C900269315 /* HOROSCOPE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB125C71CDCB9C900269315 /* HOROSCOPETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB125DF1CDCB9CA00269315 /* Build configuration list for PBXNativeTarget "HOROSCOPETests" */;
+			buildPhases = (
+				7BB125C41CDCB9C900269315 /* Sources */,
+				7BB125C51CDCB9C900269315 /* Frameworks */,
+				7BB125C61CDCB9C900269315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB125CA1CDCB9C900269315 /* PBXTargetDependency */,
+			);
+			name = HOROSCOPETests;
+			productName = HOROSCOPETests;
+			productReference = 7BB125C81CDCB9C900269315 /* HOROSCOPETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BB125D21CDCB9CA00269315 /* HOROSCOPEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB125E21CDCB9CA00269315 /* Build configuration list for PBXNativeTarget "HOROSCOPEUITests" */;
+			buildPhases = (
+				7BB125CF1CDCB9CA00269315 /* Sources */,
+				7BB125D01CDCB9CA00269315 /* Frameworks */,
+				7BB125D11CDCB9CA00269315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB125D51CDCB9CA00269315 /* PBXTargetDependency */,
+			);
+			name = HOROSCOPEUITests;
+			productName = HOROSCOPEUITests;
+			productReference = 7BB125D31CDCB9CA00269315 /* HOROSCOPEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB125AC1CDCB9C900269315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Pond;
+				TargetAttributes = {
+					7BB125B31CDCB9C900269315 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3JSM722ZKS;
+					};
+					7BB125C71CDCB9C900269315 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3JSM722ZKS;
+						TestTargetID = 7BB125B31CDCB9C900269315;
+					};
+					7BB125D21CDCB9CA00269315 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3JSM722ZKS;
+						TestTargetID = 7BB125B31CDCB9C900269315;
+					};
+				};
+			};
+			buildConfigurationList = 7BB125AF1CDCB9C900269315 /* Build configuration list for PBXProject "HOROSCOPE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB125AB1CDCB9C900269315;
+			productRefGroup = 7BB125B51CDCB9C900269315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB125B31CDCB9C900269315 /* HOROSCOPE */,
+				7BB125C71CDCB9C900269315 /* HOROSCOPETests */,
+				7BB125D21CDCB9CA00269315 /* HOROSCOPEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB125B21CDCB9C900269315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB125C21CDCB9C900269315 /* LaunchScreen.storyboard in Resources */,
+				7BB125BF1CDCB9C900269315 /* Assets.xcassets in Resources */,
+				7BB125BD1CDCB9C900269315 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB125C61CDCB9C900269315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB125D11CDCB9CA00269315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB125B01CDCB9C900269315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B425C441CEDEE1800A77ADC /* ViewController.swift in Sources */,
+				7BB125B81CDCB9C900269315 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB125C41CDCB9C900269315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B425C481CEE2F9000A77ADC /* AppDelegate.swift in Sources */,
+				7B425C471CEE2F8A00A77ADC /* ViewController.swift in Sources */,
+				7B425C421CEDEBCC00A77ADC /* HOROSCOPETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB125CF1CDCB9CA00269315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB125D81CDCB9CA00269315 /* HOROSCOPEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB125CA1CDCB9C900269315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB125B31CDCB9C900269315 /* HOROSCOPE */;
+			targetProxy = 7BB125C91CDCB9C900269315 /* PBXContainerItemProxy */;
+		};
+		7BB125D51CDCB9CA00269315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB125B31CDCB9C900269315 /* HOROSCOPE */;
+			targetProxy = 7BB125D41CDCB9CA00269315 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BB125BB1CDCB9C900269315 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB125BC1CDCB9C900269315 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BB125C01CDCB9C900269315 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB125C11CDCB9C900269315 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB125DA1CDCB9CA00269315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BB125DB1CDCB9CA00269315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB125DD1CDCB9CA00269315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HOROSCOPE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvaritta.HOROSCOPE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BB125DE1CDCB9CA00269315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HOROSCOPE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvaritta.HOROSCOPE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BB125E01CDCB9CA00269315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HOROSCOPETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvaritta.HOROSCOPETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HOROSCOPE.app/HOROSCOPE";
+			};
+			name = Debug;
+		};
+		7BB125E11CDCB9CA00269315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HOROSCOPETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvaritta.HOROSCOPETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HOROSCOPE.app/HOROSCOPE";
+			};
+			name = Release;
+		};
+		7BB125E31CDCB9CA00269315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HOROSCOPEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvaritta.HOROSCOPEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HOROSCOPE;
+			};
+			name = Debug;
+		};
+		7BB125E41CDCB9CA00269315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HOROSCOPEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvaritta.HOROSCOPEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HOROSCOPE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB125AF1CDCB9C900269315 /* Build configuration list for PBXProject "HOROSCOPE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB125DA1CDCB9CA00269315 /* Debug */,
+				7BB125DB1CDCB9CA00269315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB125DC1CDCB9CA00269315 /* Build configuration list for PBXNativeTarget "HOROSCOPE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB125DD1CDCB9CA00269315 /* Debug */,
+				7BB125DE1CDCB9CA00269315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB125DF1CDCB9CA00269315 /* Build configuration list for PBXNativeTarget "HOROSCOPETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB125E01CDCB9CA00269315 /* Debug */,
+				7BB125E11CDCB9CA00269315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB125E21CDCB9CA00269315 /* Build configuration list for PBXNativeTarget "HOROSCOPEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB125E31CDCB9CA00269315 /* Debug */,
+				7BB125E41CDCB9CA00269315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB125AC1CDCB9C900269315 /* Project object */;
+}
